@@ -32,22 +32,22 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     // for the location
-    compile 'com.android.support:multidex:1.0.1'
-    compile 'com.google.android.gms:play-services:11.4.0'
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'com.google.android.gms:play-services:11.4.0'
 
     //for the post-ing
 
     // Retrofit
-    compile 'com.squareup.okhttp3:okhttp:3.9.0'
-    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.9.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
 
     // JSON Parsing
-    compile 'com.google.code.gson:gson:2.6.1'
-    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.google.code.gson:gson:2.6.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
 
-    compile 'io.reactivex:rxjava:1.1.6'
-    compile 'io.reactivex:rxandroid:1.2.1'
-    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    implementation 'io.reactivex:rxjava:1.1.6'
+    implementation 'io.reactivex:rxandroid:1.2.1'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
     implementation 'com.android.support:design:27.1.1'
 
 

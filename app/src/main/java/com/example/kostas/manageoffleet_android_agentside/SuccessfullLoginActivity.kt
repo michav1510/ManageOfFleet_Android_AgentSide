@@ -72,7 +72,6 @@ class SuccessfullLoginActivity : AppCompatActivity(), GoogleApiClient.Connection
 
         val bundle = intent.extras
         user = bundle.getString("user")
-//        user = "michav"
 
         mdebugView = findViewById<TextView>(R.id.debug_view)
         //mdebugView.visibility = View.INVISIBLE // IN ORDER TO SEE THE DEBUG VIEW ADD HERE A COMMENT
