@@ -73,6 +73,7 @@ class SuccessfullLoginActivity : AppCompatActivity(), GoogleApiClient.Connection
         val bundle = intent.extras
         user = bundle.getString("user")
 
+        mResponseTv = findViewById<TextView>(R.id.tv_response)
         mdebugView = findViewById<TextView>(R.id.debug_view)
         //mdebugView.visibility = View.INVISIBLE // IN ORDER TO SEE THE DEBUG VIEW ADD HERE A COMMENT
 
@@ -221,7 +222,7 @@ class SuccessfullLoginActivity : AppCompatActivity(), GoogleApiClient.Connection
                         // Logic to handle location object
                         mLocation = location;
                         //EDO EGRAFA STO txt_latitude kai txt_longitude tis sintetagemens location.latitude
-                        if(mLocation!= null /* && convertLatLongDifferenceToMeters(mLocation.latitude,mLocation.longitude,location.latitude,location.longitude) > 20*/) {
+                        if(mLocation!= null /* && convertLatLongDifferenceToMeters(mLocation.latitude,mLocation.longitude,location.latitude,location.longitude) > 20 */) {
                             mLocation = location;
                             //ipologismos tou xronou se date kai milli
                             val string_username = user
