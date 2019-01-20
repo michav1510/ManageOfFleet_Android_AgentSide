@@ -94,11 +94,14 @@ class MainActivity : AppCompatActivity() {
                         showResponse(""+respns)
                         if(respns.result == 1)
                         {
-                            val resIntent = Intent(this@MainActivity,SuccessfullLoginActivity::class.java)
-                            val bundle:Bundle = Bundle()
-                            bundle.putString("user", usertext.text.toString());
-                            resIntent.putExtras(bundle);
-                            startActivity(resIntent)
+//                            val resIntent = Intent(this@MainActivity,SuccessfullLoginActivity::class.java)
+//                            val bundle:Bundle = Bundle()
+//                            bundle.putString("user", usertext.text.toString());
+//                            resIntent.putExtras(bundle);
+//                            startActivity(resIntent)
+
+                            val i = Intent(this@MainActivity, SuccessfullLoginService::class.java)
+                            startService(i)
                         }
                     }
                 })
