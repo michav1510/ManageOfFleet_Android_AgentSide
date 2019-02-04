@@ -12,14 +12,14 @@ import rx.Observable
 
 interface APIService {
 
-    @POST("giveauthenticationtoagent.php")
+    @POST("-----------------------------")
     @Headers("Content-Type: application/json;charset=utf-8", "Accept: application/json;charset=utf-8", "Cache-Control: max-age=640000")
     fun sendCredntlsAndWaitForAuthentication(
 //            @Body jsonObject: String
             @Body jsonObject : JSONObject
     ): Observable<RspnsForAuthentication>
 
-    @POST("recordlocationofagent.php")
+    @POST("------------------------------")
     @Headers("Content-Type: application/json;charset=utf-8", "Accept: application/json;charset=utf-8", "Cache-Control: max-age=640000")
     fun sendLastLocationRecordingOfAgent(
 //            @Body jsonObject: String
