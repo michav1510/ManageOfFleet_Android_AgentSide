@@ -1,4 +1,4 @@
-package com.example.kostas.manageoffleet_android_agentside
+package com.example.mike.manageoffleet_android_agentside
 
 import android.content.Context
 import android.content.DialogInterface
@@ -28,9 +28,9 @@ import android.support.v4.app.ActivityCompat
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import com.example.kostas.manageoffleet_android_agentside.data.model.Post
-import com.example.kostas.manageoffleet_android_agentside.data.model.remote.APIService
-import com.example.kostas.manageoffleet_android_agentside.data.model.remote.ApiUtils
+import com.example.mike.manageoffleet_android_agentside.data.model.Post
+import com.example.mike.manageoffleet_android_agentside.data.model.remote.APIService
+import com.example.mike.manageoffleet_android_agentside.data.model.remote.ApiUtils
 import org.json.JSONObject
 import rx.Subscriber
 import rx.android.schedulers.AndroidSchedulers

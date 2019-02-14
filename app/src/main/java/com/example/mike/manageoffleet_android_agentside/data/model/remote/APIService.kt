@@ -1,6 +1,6 @@
-package com.example.kostas.manageoffleet_android_agentside.data.model.remote
+package com.example.mike.manageoffleet_android_agentside.data.model.remote
 
-import com.example.kostas.manageoffleet_android_agentside.data.model.Post
+import com.example.mike.manageoffleet_android_agentside.data.model.Post
 
 
 import org.json.JSONObject
@@ -11,7 +11,7 @@ import rx.Observable
 
 interface APIService {
 
-    @POST("send_location_info.php")
+    @POST("-----------------.php")
     @Headers("Content-Type: application/json;charset=utf-8", "Accept: application/json;charset=utf-8", "Cache-Control: max-age=640000")
     fun savePost(
 //            @Body jsonObject: String

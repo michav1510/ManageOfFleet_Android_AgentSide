@@ -1,4 +1,4 @@
-package com.example.kostas.manageoffleet_android_agentside
+package com.example.mike.manageoffleet_android_agentside
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.example.kostas.merge_of_post_and_location", appContext.packageName)
+        assertEquals("com.example.mike.merge_of_post_and_location", appContext.packageName)
     }
 }
